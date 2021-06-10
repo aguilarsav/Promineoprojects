@@ -33,3 +33,8 @@ console.log ("My full name is " + fullName);
 //For ex., if I had a variable called fave state, I would do:
 // let favoriteState= "AZ";
 //console.log ('My favorite state is:' + favoriteState);
+
+var number = 0;
+number = number + 1;
+number += 1;
+number++ //incrament operator
