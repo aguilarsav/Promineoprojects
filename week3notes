@@ -1,0 +1,35 @@
+//formula for avg in array
+//ex var grades = [56, 78, 90, 12, 94, 100, 67, 88];
+//average = sum of elements / total number of elements
+//add every single element in array
+//use index to access elements
+//create for loop to access all elements
+//create variable called sum = total sum of elements
+//total number of elements = length of array
+//
+// var grades = [56, 78, 90, 12, 94, 100, 67, 88];
+// let sum = 0;
+// for(grade of grades){
+//     sum += grade;
+// }
+// let total = grades.length;
+// let avg = sum/total;
+
+// console.log(avg);
+
+var array = [4, 6, 8, 12];
+let sum = 0;
+for(element of array){
+    sum += element;
+}
+let total = array.length
+
+function sumOfArray()
+if(sumOfArray > 100){
+    return true;
+}
+else return false;
+
+//accumulator, for loop in array
+//reduce, 
+//for loops mdn
